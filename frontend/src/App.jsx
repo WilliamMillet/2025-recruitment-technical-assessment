@@ -9,8 +9,7 @@ import MapPage from './pages/MapPage/MapPage'
 import Header from './components/Header/Header'
 
 function App() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <>
       <Header />
