@@ -1,0 +1,45 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+* {
+  font-family: Roboto;
+}
+
+.dark-mode * {
+  color: white;
+}
+
+body.dark-mode {
+  background-color: black;
+}
+
+.material-symbols-rounded {
+  font-family: 'Material Symbols Rounded';
+  font-variation-settings: 
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.thick-btn {
+  border: 2px solid #ef6c00;
+  color:  #ef6c00;
+  font-weight: bold;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background: none;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+

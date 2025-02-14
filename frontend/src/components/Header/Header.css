@@ -1,0 +1,70 @@
+
+.main-header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #ef6c00;
+    padding: 0 20px;
+}
+
+.freerooms-main-title-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+.freerooms-main-title-link:hover {
+    filter: brightness(85%);
+}
+
+.freerooms-main-title-text {
+    color: #ef6c00;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+.default-link-styling {
+    text-decoration: none;
+}
+
+.free-rooms-logo-header-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.header-main-options {
+    gap: 10px;
+    display: flex;
+}
+
+.header-main-options-btn {
+    width: 45px;
+    height: 45px;
+    border: 1px solid rgba(239, 108, 0, 0.5);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all  0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #ef6c00;
+    background: none;
+}
+
+.header-main-options-btn:hover {
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.15);
+    color: #ef6c00;
+    border: 1px solid rgba(239, 108, 0, 1)
+}
+
+.header-main-options-btn span {
+    font-size: 28px;
+}
+
+.header-main-options-btn.active {
+    background-color: #ef6c00;
+    color: white;
+}
