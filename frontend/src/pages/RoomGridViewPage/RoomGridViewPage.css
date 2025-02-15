@@ -46,7 +46,7 @@
 
 .room-grid-view-card {
     height: 390px;
-    background-size: cover;
+    background-size: 120%;
     background-position: center;
     background-repeat: 'no-repeat';
     border-radius: 10px;
@@ -57,6 +57,11 @@
     position: relative;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
     cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.room-grid-view-card:hover {
+    background-size: 122.5%;
 }
 
 @media (max-width: 760px) {

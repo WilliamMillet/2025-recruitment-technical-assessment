@@ -9,8 +9,6 @@ const RoomGridViewCard = ({ roomData }) => {
     setImageLoading(false);
   };
 
-  const darkMode = JSON.parse(localStorage.getItem("darkMode")) || false
-
   // Decide what colour the available room number status should be
 
   let roomStatusColor;
@@ -24,7 +22,7 @@ const RoomGridViewCard = ({ roomData }) => {
   }
 
   return (
-    <section
+    <article
       className="room-grid-view-card"
       style={{
         backgroundColor: imageLoading ? "#ef6c00" : "transparent",
@@ -53,7 +51,7 @@ const RoomGridViewCard = ({ roomData }) => {
         </span>
       </div>
       <p className="room-name-span">{roomData.name}</p>
-    </section>
+    </article>
   );
 };
 
